@@ -6,6 +6,10 @@ import Chekpoint21 from './Chekpoint21/Chekpoint21.js';
 
 class App extends Component {
   render() {
+    const mystyle ={
+      fontWeight: 'bold' ,
+      color:'red' 
+  }
     return (
       <div className="page">
         <div classname="box" >
@@ -22,7 +26,7 @@ class App extends Component {
 
         <div>
           <center>
-          <h3>Ou se passe les session</h3>
+          <h3 style={mystyle}>Ou se passe les session</h3>
           <p>les session se passent dans les hackerspaces de Gomycode dans les ville suivant:L'hebergement est possible dans la limite de places desponible.</p>
           </center>
         </div>
